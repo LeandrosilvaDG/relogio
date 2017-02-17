@@ -1,0 +1,76 @@
+.content{
+	width: 50%;
+	height: 600px;
+	margin: 0 auto;
+	background-image: url(../img/bg_business.jpg);
+	background-size: 100% auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+h1{
+	text-align: center;
+	background: #ccc;
+	box-shadow: 1px 1px 3px;
+}
+
+.footer{
+	position:absolute;
+	bottom:15%;
+	float: right;
+}
+
+.relogio{
+	width: 600px;
+	height: 600px;
+	border: solid 4px #000;
+	border-radius: 50%;
+	margin: 5% auto;
+	position: relative;
+	background-image: url('../img/bg_relogio.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+
+#segundo{
+	width: 6px;
+	height: 250px;
+	background: #bc0a24;
+	margin: 50px 297px;
+	position: absolute;
+	box-shadow: 1px 1px 2px;
+	transform-origin: 3px bottom; 
+}
+
+#minuto{
+	width: 16px;
+	height: 250px;
+	background: #000;
+	margin: 50px 292px;
+	position: absolute;
+	box-shadow: 1px 1px 2px;
+	border-radius: 10px;
+	transform-origin: 8px bottom; 
+}
+
+#hora{
+	width: 16px;
+	height: 200px;
+	background: #000;
+	margin: 105px 292px;
+	position: absolute;
+	box-shadow: 1px 1px 2px;
+	border-radius: 10px;
+	transform-origin: 8px bottom; 
+}
+
+#centro{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin: 285px 285px;
+	background: #000;
+	position: absolute;
+	box-shadow: 1px 1px 5px;
+}
