@@ -32,6 +32,7 @@ $(document).ready(function(){
 	// ocultando o relógio e o button oclutar
 	$("#ocultar").click(function(){
 		$(this).hide();
+		$('.content').css('background-image', 'url(assets/img/bg_business.jpg)');
 		$("#mostrar").show();
 		$(".relogio").hide();
 	});
@@ -39,6 +40,7 @@ $(document).ready(function(){
 	// mostrando o relógio
 	$("#mostrar").click(function(){
 		$(this).hide();
+		$(".content").css('background-image', 'none');
 		$("#ocultar").show();
 		$(".relogio").show();
 	});
